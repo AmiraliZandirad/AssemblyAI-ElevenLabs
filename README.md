@@ -1,2 +1,2 @@
-# AssemblyAI-ElevenLabs
-AssemblyAI make by python3 
+# AssemblyAI-ElevenLabs 🤖🧑🏻‍🔧
+AssemblyAI make by python3 🐍
