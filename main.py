@@ -6,10 +6,10 @@ import openai
 import elevenlabs
 from queue import Queue
 
-#set API keys
-aai.settings.api_key = "API-KEY"
-openai.api_key = "API-KEY"
-elevenlabs.set_api_key("API-KEY")
+
+aai.settings.api_key = "Your-API-KEY"
+openai.api_key = "Your-API-KEY"
+elevenlabs.set_api_key("Your-API-KEY")
 
 transcript_queue = Queue()
 
@@ -65,7 +65,7 @@ def handle_conversation():
         # Convert the response to audio and play it
         audio = elevenlabs.generate(
             text=text,
-            voice="Bella" # or any voice of your choice
+            voice="Bella" 
         )
 
         print("\nAI:", text, end="\r\n")
